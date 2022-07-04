@@ -12,6 +12,11 @@ const JOKES = [
   "My favourite computer based band is the Black IPs.",
   "What programme do you use to predict the music tastes of former US presidential candidates? An Al Gore Rhythm.",
   "An SEO expert walked into a bar, pub, inn, tavern, hostelry, public house.",
+  "Why do Python devs feel like they're in the wrong place? Because they're not using PEP8.",
+  "A programmer is someone who fixes things that aren't broken.",
+  "I have a problem. I don't know what it is, but I can't solve it.",
+  "I'm not a great programmer; I'm just a good programmer with great habits.",
+  "Hello, I'm a new programmer. I'm trying to solve a problem that no one has solved before.",
 ];
 
 export const handler = (_req: Request, _ctx: HandlerContext): Response => {
