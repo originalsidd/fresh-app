@@ -4,12 +4,13 @@ import { tw } from "@twind";
 
 export default function Lemon() {
   return (
-    <div class={tw`text-center m-0`}>
+    <div class={tw`flex flex-column items-center m-0 pb-4`}>
       <img
         src="/logo.svg"
-        width="500px"
+        width="100px"
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
+      Todo App created using Fresh🍋
     </div>
   );
 }

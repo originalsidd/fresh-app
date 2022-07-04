@@ -1,20 +1,16 @@
 /** @jsx h */
 import { h } from "preact";
-import { useState, useEffect } from "preact/hooks";
 import { tw } from "@twind";
-import Ocean from "../islands/Ocean.tsx";
+import TodoComponent from "../islands/Todo.tsx";
 import Lemon from "../islands/Lemon.tsx";
 
-export default function Home() {
-  const [flag, setFlag] = useState(true);
-  const setBgHandler = () => {
-    setFlag(!flag);
-  }
-
+export default function Todo() {
   return (
-    <div class={tw`w-80 mx-auto p-10`}>
+    <div
+      class={tw`w-screen h-screen flex flex-col justify-center items-center bg-yellow-100`}
+    >
       <Lemon />
-      <Ocean setBgHandler={setBgHandler}/>
+      <TodoComponent />
     </div>
   );
 }
